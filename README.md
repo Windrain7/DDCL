@@ -6,8 +6,6 @@ We reformulate unsupervised image deraining as a signal separation task, address
 ## Requirements
 
 ### Environment Setup
-
-#### Option 1: Using Conda (Recommended)
 ```bash
 # Create environment from file
 conda env create -f environment.yml
@@ -15,15 +13,6 @@ conda env create -f environment.yml
 # Activate the environment
 conda activate ddcl
 ```
-
-#### Option 2: Manual Installation
-- Python 3.10.13+
-- PyTorch 2.4.0+ with CUDA 11.3+
-- Other dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
-
 ### Key Dependencies
 - torch >= 2.4.0
 - torchvision >= 0.19.0
@@ -144,8 +133,6 @@ If you find this work helpful, please consider citing:
 This work builds upon several excellent projects:
 - [DerainCycleGAN](https://github.com/OaDsis/DerainCycleGAN)
 - [MoCo](https://github.com/facebookresearch/moco)
-- Related deraining works
-
 ## License
 
 This project is released under the MIT License.
